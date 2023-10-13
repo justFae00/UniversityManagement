@@ -1,0 +1,3 @@
+  Term Title	Grade Registration	Start Date	Final Date
+1. Spring	1999.5.10	UniversityManagement.Date@43556938	UniversityManagement.Date@43556938
+2. ifioerfo	2222.2.4	UniversityManagement.Date@3d04a311	UniversityManagement.Date@7a46a697
