@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" style="-fx-background-color:#E6E7E8" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Student.StudentDashboardController">
+   <children>
+      <Button fx:id="stdExitButton" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="620.0" mnemonicParsing="false" onAction="#stdExitButtonOnClick" prefHeight="53.0" prefWidth="54.0" style="-fx-background-color: #C9DAEA;" text="EXIT" textFill="#767676" translateX="1.0" translateY="1.0" translateZ="5.0">
+         <font>
+            <Font name="Bodoni MT Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Pane layoutX="520.0" prefHeight="700.0" prefWidth="380.0" style="-fx-background-color: #8968cc;">
+         <children>
+            <Button fx:id="joinNewClass" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="158.0" mnemonicParsing="false" onAction="#joinNewClassOnClick" prefHeight="75.0" prefWidth="330.0" style="-fx-background-color: #e4e4ed;" text="JOIN NEW CLASS" textAlignment="CENTER" textFill="#5f5766">
+               <font>
+                  <Font name="Bodoni MT Bold" size="34.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.37254902720451355" green="0.34117648005485535" blue="0.4000000059604645" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="StdClassesButton" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="52.0" mnemonicParsing="false" onAction="#StdClassesButtonOnClick" prefHeight="75.0" prefWidth="330.0" style="-fx-background-color: #e4e4ed;" text="CLASSES" textAlignment="CENTER" textFill="#5f5766">
+               <font>
+                  <Font name="Bodoni MT Bold" size="34.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.37254902720451355" green="0.34117648005485535" blue="0.4000000059604645" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="takeExamButton" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="261.0" mnemonicParsing="false" onAction="#takeExamButtonOnClick" prefHeight="75.0" prefWidth="330.0" style="-fx-background-color: #e4e4ed;" text="TAKE EXAM" textAlignment="CENTER" textFill="#5f5766">
+               <font>
+                  <Font name="Bodoni MT Bold" size="34.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="0.37254902720451355" green="0.34117648005485535" blue="0.4000000059604645" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </Pane>
+      <TextArea fx:id="welcomeBox" editable="false" layoutX="55.0" layoutY="108.0" opacity="0.72" prefHeight="182.0" prefWidth="402.0" style="-fx-background-color: #E1F3F8; -fx-border-color: #B2B3B4;">
+         <font>
+            <Font name="Bodoni MT" size="21.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="localDate" editable="false" opacity="0.8" prefHeight="39.0" prefWidth="520.0" style="-fx-background-color: #C9DAEA;">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
